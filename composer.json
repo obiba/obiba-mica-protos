@@ -1,0 +1,21 @@
+{
+  "name": "obiba/obiba-mica-protos",
+  "description": "The Generated  Dto definitions (Protobuf)",
+  "keywords": ["obiba", "protos", "protobuf", "protocol buffer", "serializing"],
+  "homepage": "https://github.com/obiba/obiba-mica-protos.git",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Obiba",
+      "email": "info@obiba.org"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "obiba/obiba-protobuf": "^1.0"
+  },
+  "autoload": {
+    "files": ["autoload_proto.php"]
+  }
+}
